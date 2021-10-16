@@ -20,9 +20,18 @@ module Api
             def create
                 article = Article.new(article_params)
                 if article.save
-                    render json: {status: 'SUCCES', message:'Save article', data:article}, status: :ok
+                    render json: {status: 'SUCCESS', message:'Save article', data:article}, status: :ok
                 else
                     render json: {status: 'ERROR', message:'Article not save', data:article.errors}, status: :unprocessable_entity
+                end
+            end
+
+            def update
+                article = Article.find(params[:id])               
+                if article.update_attributes(article_params)
+                    render json: {status: 'SUCCESS', message:'Updated article', data:article},status: :ok
+                else
+                    render json: {status: 'ERROR', message:'Article not updated', data:article.errors},status: :unprocessable_entity
                 end
             end
 
