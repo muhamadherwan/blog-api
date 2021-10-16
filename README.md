@@ -13,7 +13,7 @@
 ### [x] Article route and article controller
 ### [x] Article Index
 ### [x] Article Show
-### [] Article Destroy
-### [] Article Create
-### [] Article Update
+### [x] Article Destroy
+### [x] Article Create
+### [x] Article Update
 ### [] JSON Serializer
