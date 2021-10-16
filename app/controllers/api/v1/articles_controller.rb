@@ -17,6 +17,21 @@ module Api
                 render json: {status: 'SUCCESS', message:'Deleted article', data:article},status: :ok
             end
 
+            def create
+                article = Article.new(article_params)
+                if article.save
+                    render json: {status: 'SUCCES', message:'Save article', data:article}, status: :ok
+                else
+                    render json: {status: 'ERROR', message:'Article not save', data:article.errors}, status: :unprocessable_entity
+                end
+            end
+
+            private
+
+            def article_params
+                params.permit(:title, :body)
+            end
+
         end
     end
 end
