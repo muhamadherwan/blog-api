@@ -8,7 +8,8 @@
 ### [x] First Commit
 ### [x] Create article model
 ### [x] Migrate article migration file
-### [] Insert artcile fakers
+### [x] Set validation at article model
+### [] Insert article fakers
 ### [] Article route and article controller
 ### [] Article Index
 ### [] Article Show
