@@ -11,9 +11,9 @@
 ### [x] Set validation at article model
 ### [x] Insert article fakers
 ### [x] Article route and article controller
-### [] Article Index
-### [] Article Show
+### [x] Article Index
+### [x] Article Show
+### [] Article Destroy
 ### [] Article Create
-### [] Article Delete
 ### [] Article Update
 ### [] JSON Serializer

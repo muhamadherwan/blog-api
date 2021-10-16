@@ -11,6 +11,12 @@ module Api
                 render json: {status: 'SUCCESS', message:'Loaded article', data:article},status: :ok
             end
 
+            def destroy
+                article = Article.find(params[:id])
+                article.destroy
+                render json: {status: 'SUCCESS', message:'Deleted article', data:article},status: :ok
+            end
+
         end
     end
 end
