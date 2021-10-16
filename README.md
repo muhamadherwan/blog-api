@@ -9,8 +9,8 @@
 ### [x] Create article model
 ### [x] Migrate article migration file
 ### [x] Set validation at article model
-### [] Insert article fakers
-### [] Article route and article controller
+### [x] Insert article fakers
+### [x] Article route and article controller
 ### [] Article Index
 ### [] Article Show
 ### [] Article Create
