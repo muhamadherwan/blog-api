@@ -1,25 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# blog-api ROR
+* ROR CRUD API
+** [x] Create new rails project
+** [x] Check new rails project at localhost server
+** [x] Git init
+** [] Create new repo at github
+** [] First Commit
+** [] Create article model
+** [] Migrate article table
+** [] Insert artcile fakers
+** [] Article route and article controller
+** [] Article Index
+** [] Article Show
+** [] Article Create
+** [] Article Delete
+** [] Article Update
+** [] JSON Serializer
